@@ -162,7 +162,7 @@ img {
  }
 }
 
-@media screen and (min-width: 1536px) and (max-width: 1919px) {
+@media screen and (max-width: 1536px) {
  .ico1 {
   width: 50px;
  }
@@ -188,9 +188,10 @@ img {
   height: 200px;
  }
 
- body {
-  background-color: red;
- }
+ /* body { */
+    /* background-image: none; */
+  /* background-color: red; */
+ /* } */
 }
 
 /* @media screen and (max-width: 844px) {
