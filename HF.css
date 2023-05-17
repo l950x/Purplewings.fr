@@ -7,7 +7,7 @@ header {
  justify-content: space-evenly;
  border-radius: 0 0 20px 20px;
  opacity: 0.7;
- margin-bottom: 2.6%;
+ /* margin-bottom: 2.6%; */
 }
 
 header a {
@@ -49,10 +49,12 @@ footer a {
 }
 
 .fond {
+    margin-top: 2.5%;
  margin-right: auto;
  margin-left: auto;
  text-align: center;
  width: 98%;
+ height: 100%;
  background-color: rgba(175, 5, 255, 0.3);
  padding-top: 20px;
  padding-bottom: 20px;
@@ -60,7 +62,7 @@ footer a {
  /* animation: gang .1s ease-out  both; */
 }
 
-@media screen and (min-width : 1536px) and (max-width : 1919px) {
+@media screen and (max-width : 1536px) {
  header {
   margin-bottom: 1.3%;
  }
