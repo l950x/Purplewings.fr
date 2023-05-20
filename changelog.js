@@ -14,9 +14,9 @@ sb.onchange = (event) => {
         text4.innerHTML = "<p>Ajout du mode jour/nuit</p>";
     }
     else if (sb.selectedIndex == 1) {
-        text1.innerHTML = "<p>Ajout du mode jour/nuit</p>";
+        text1.innerHTML = "<p>170505</p>"
         text2.innerHTML = "<p>Corrections de bugs divers</p>"
-        text3.innerHTML = "<p></p>"
+        text3.innerHTML = "<p>Ajout du mode jour/nuit</p>";
         text4.innerHTML = "<p></p>"
     }
     else if (sb.selectedIndex == 2) {
@@ -26,9 +26,9 @@ sb.onchange = (event) => {
         text4.innerHTML = "<p></p>"
     }
     else if (sb.selectedIndex == 3) {
-        text1.innerHTML = "<p>Creation du projet</p>";
+        text1.innerHTML = "<p>23/04/23</p>";
         text2.innerHTML = "<p>Ajout des fonctionalités basique</p>";
         text3.innerHTML = "<p>Correction de bugs divers</p>";
-        text4.innerHTML = "<p></p>";
+        text4.innerHTML = "<p>Creation du projet</p>";
     }
 };

@@ -1,68 +1,88 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    cursor: url("cursor.png"), auto;
-   }
-   
+ padding: 0;
+ margin: 0;
+ cursor: url("cursor.png"), auto;
+}
 
-   body {
-    background-image: url("./img/istockphoto-1273929462-170667a.jpg");
-    /* background-color: aliceblue; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background: linear-gradient(to bottom, #d632d6, #b34dc0); */
-    /* background-color: rgb(61, 0, 63); */
-   }
-   
+body {
+ background-image: url("./img/istockphoto-1273929462-170667a.jpg");
+ /* background-color: aliceblue; */
+ background-size: cover;
+ background-repeat: no-repeat;
+ /* background: linear-gradient(to bottom, #d632d6, #b34dc0); */
+ /* background-color: rgb(61, 0, 63); */
+}
+
 canvas {
-    border-radius: 20px;
-    image-rendering: optimizeSpeed;
-    -webkit-interpolation-mode: nearest-neighbor;
-    -ms-touch-action: none;
-    touch-action: none;
-    margin-top: 1.2%;
-    padding: 0px;
-    border: 0px;
+ border-radius: 20px;
+ image-rendering: optimizeSpeed;
+ -webkit-interpolation-mode: nearest-neighbor;
+ -ms-touch-action: none;
+ touch-action: none;
+ margin-top: 1.2%;
+ padding: 0px;
+ border: 0px;
+ opacity: 0;
+ animation: skrtskrt 0.5s ease-in-out both;
+ animation-delay: 1s;
 }
 :-webkit-full-screen #canvas {
-    width: 100%;
-    height: 100%;
+ width: 100%;
+ height: 100%;
 }
 :-webkit-full-screen {
-    width: 100%;
-    height: 100%;
+ width: 100%;
+ height: 100%;
 }
 
 /* Custom Runner Styles */
 div.gm4html5_div_class {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
 }
 div.gm4html5_login {
-    padding: 20px;
-    position: absolute;
-    border: solid 2px #000000;
-    background-color: #404040;
-    color:#00ff00;
-    border-radius: 15px;
-    box-shadow: #101010 20px 20px 40px;
+ padding: 20px;
+ position: absolute;
+ border: solid 2px #000000;
+ background-color: #404040;
+ color: #00ff00;
+ border-radius: 15px;
+ box-shadow: #101010 20px 20px 40px;
 }
 div.gm4html5_cancel_button {
-    float: right;
+ float: right;
 }
 div.gm4html5_login_button {
-    float: left;
+ float: left;
 }
 div.gm4html5_login_header {
-    text-align: center;
+ text-align: center;
 }
 
 .fond {
-    margin-top: 2.55%;
-    /* background-color: rgba(255, 62, 255, 0.5); */
-    height: 680px;
-    border-radius: 10px;
+ margin-top: 2.55%;
+ /* background-color: rgba(255, 62, 255, 0.5); */
+ height: 680px;
 }
 /* END - Custom Runner Styles */
+@media screen and (max-width: 1536px) {
+ canvas {
+  margin-top: 0.6%;
+  height: 75%;
+  width: 75%;
+ }
+ .fond {
+  margin-top: 1.5%;
+  height: 517px;
+ }
+}
+
+@keyframes skrtskrt {
+ from {
+  opacity: 0;
+ }
+ to {
+  opacity: 1;
+ }
+}

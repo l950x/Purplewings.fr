@@ -1,0 +1,85 @@
+:root {
+    --text-- : #ffffffa5;
+    --background-- :  rgba(255, 255, 255, 0.199);
+
+    --formmargintop-- : 0.7%;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.clique {
+    /* margin-top: 200px; */
+    text-decoration : none;
+    background-color: var(--background--);
+    color: var(--text--);
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 0px 5px 5px 5px;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 30px;
+
+}
+
+.form {
+    padding: 3%;
+    margin: auto;
+    margin-top: var(--formmargintop--);
+    background-color: rgb(159, 40, 214);
+    width: 25%;
+    border-radius: 15px;
+    
+}
+
+.form ::placeholder {
+    color : var(--text--);
+}
+form input{
+    border-color: transparent;
+    background-color: var(--background--);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    width: 70%;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 20px;
+    
+}
+
+form textarea {
+    border-color: transparent;
+    background-color: var(--background--);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    width: 65%;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 20px;
+    height: 100px;
+}
+form select {
+    border-color: transparent;
+    background-color: var(--background--);
+    color: var(--text--);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    width: 65%;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 20px;
+    height: 50px;
+}
+select option {
+    background-color: #B253DE;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 30px;
+}
+
+.fond {
+    height: 515px;
+}
