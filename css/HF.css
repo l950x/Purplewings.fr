@@ -27,6 +27,7 @@ header a {
  font-size: 25px;
  font-weight: bold;
  transition: color 0.5s;
+ cursor: pointer;
 }
 
 header .ico1 {
@@ -54,6 +55,7 @@ footer a {
  font-size: 25px;
  font-weight: bold;
  opacity: 0.6;
+ cursor: pointer;
 }
 
 .fond {
