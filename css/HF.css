@@ -1,3 +1,11 @@
+:root {
+    --couleur1: rgba(213, 124, 255, 0.3);
+}
+body {
+    background-image: url("/img/fond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 header {
  background-color: rgba(213, 124, 255, 0.3);
  text-align: center;
