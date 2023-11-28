@@ -34,11 +34,11 @@ body {
  width: 98%;
  height: auto;
  background-color: rgba(220, 144, 255, 0.1);
- margin-bottom: 50px;
+ margin-bottom: 25px;
  border-radius: 10px;
 }
 .p1 h1 {
- font-size: 100px;
+ font-size: 60px;
  font-family: "Darumadrop One", sans-serif;
  color: rgba(77, 12, 114, 0.788);
  animation: gang 0.5s ease-in-out;
@@ -50,6 +50,7 @@ body {
  /* font-weight: bold; */
  animation: grrpaw 0.8s ease-in-out;
  padding: 10px;
+ font-size: 30px;
 }
 .em {
  padding: 15px 20px 10px 20px;
@@ -81,7 +82,7 @@ a {
 }
 .p2 {
  /* padding-bottom: 20px; */
- margin-top: 50px;
+ margin-top: 25px;
  margin-right: auto;
  margin-left: auto;
  font-size: 30px;
@@ -100,8 +101,8 @@ a {
  margin-right: 50px;
  background-color: rgba(213, 124, 255, 0.25);
  /* box-shadow: 10px 0px 30px rgba(12, 57, 153, 0.6); */
- width: 200px;
- height: 250px;
+ width: 150px;
+ height: 200px;
  border-radius: 15px;
  opacity: 0;
  animation: grrpaw 0.5s ease-out both, nwaaar 1s linear infinite;
@@ -162,7 +163,7 @@ img {
   box-shadow: 5px 0px 5px rgba(255, 128, 192, 0.2);
  }
 }
-
+/* 
 @media screen and (max-width: 1536px) {
  .ico1 {
   width: 50px;
@@ -231,4 +232,4 @@ img {
             margin-top: 15%;
         }
         
-}
+} */

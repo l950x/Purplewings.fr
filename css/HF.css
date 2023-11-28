@@ -59,24 +59,22 @@ footer a {
 }
 
 .fond {
- margin-top: 2.0%;
- margin-right: auto;
- margin-left: auto;
+ margin: 1.2% auto;
  text-align: center;
  width: 98%;
  /* height: 100%; */
  background-color: rgba(175, 5, 255, 0.3);
- padding-top: 20px;
- padding-bottom: 20px;
+ padding-top: 1.2%;
+ padding-bottom: 1.2%;
  border-radius: 20px;
  /* animation: gang .1s ease-out  both; */
 }
 
-@media screen and (max-width: 1536px) {
+/* @media screen and (max-width: 1536px) {
   .fond {
    margin-top: 1.5%;
   }
- }
+ } */
 
 
 /* @media screen and (max-width: 844px) {
