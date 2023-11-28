@@ -24,6 +24,8 @@ canvas {
  opacity: 0;
  animation: skrtskrt 0.5s ease-in-out both;
  animation-delay: 1s;
+ width: 60%;
+ height: auto;
 }
 :-webkit-full-screen #canvas {
  width: 100%;
@@ -59,23 +61,8 @@ div.gm4html5_login_header {
  text-align: center;
 }
 
-.fond {
- margin-top: 2.55%;
- /* background-color: rgba(255, 62, 255, 0.5); */
- height: 680px;
-}
-/* END - Custom Runner Styles */
-@media screen and (max-width: 1536px) {
- canvas {
-  margin-top: 0.6%;
-  height: 75%;
-  width: 75%;
- }
- .fond {
-  margin-top: 1.5%;
-  height: 517px;
- }
-}
+
+
 
 @keyframes skrtskrt {
  from {
