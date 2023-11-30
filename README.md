@@ -14,6 +14,4 @@ Purplewings is a website I created during my training to practice. I also develo
 <hr/>
 <img align="center" src="https://cdn.discordapp.com/attachments/1077640007369641984/1179839168738754660/pw1.gif?ex=657b3dda&is=6568c8da&hm=a0d0d531f4df659e50c709783e526516762d4114f88b8337edaebebe6a38fd4a&"  />
 <hr/>
-<img align="center" src="https://cdn.discordapp.com/attachments/1077640007369641984/1179839168738754660/pw1.gif?ex=657b3dda&is=6568c8da&hm=a0d0d531f4df659e50c709783e526516762d4114f88b8337edaebebe6a38fd4a&"  />
-<hr/>
 <img align="center" src="https://cdn.discordapp.com/attachments/1077640007369641984/1179843327110156409/pw2_2.gif?ex=657b41b9&is=6568ccb9&hm=d9e88cbaf59145d73b47d3b90c82a1d2892b0ba0ba22d4d216b2ac71b71d3cd1&"  />
