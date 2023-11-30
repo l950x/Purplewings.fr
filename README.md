@@ -1,7 +1,7 @@
 
 # Purplewings
 
-Purplewings is a website I created during my training to practice. I also developed a game for the site, which is a "Flappy Bird" style game. The goal is to maneuver your bird through pipes to earn coins, which can be used to enhance your bird's abilities.
+Purplewings is a website I created during my training to practice. I developed both the game and the site in one month. The game, an outdated version, was developed using the Game Maker Language (GML). In this "Flappy Bird" inspired game, the objective is to guide your bird through pipes, earning coins to enhance its abilities.
 
 ## Authors
 
